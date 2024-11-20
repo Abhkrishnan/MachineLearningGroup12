@@ -30,21 +30,29 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 ### Dataset 1
 * This image shows the overview of the tabular data, which showcases the attributes that we are using for the model
-- Age
-- Sex
-- Chest Pain Type
-- Resting Blood Pressure 
-- Serum Cholesterol 
-- Fasting Blood Sugar
-- Resting Electrocardiogram Results 
-- Maximum Heart Rate Achieved 
-- Exercise Induced Angina
-- Oldpeak (ST Depression)
-- The Slope of Peak Exercise ST Segment
-- Class (Target)​
+    - Age
+    - Sex
+    - Chest Pain Type
+    - Resting Blood Pressure 
+    - Serum Cholesterol 
+    - Fasting Blood Sugar
+    - Resting Electrocardiogram Results 
+    - Maximum Heart Rate Achieved 
+    - Exercise Induced Angina
+    - Oldpeak (ST Depression)
+    - The Slope of Peak Exercise ST Segment
+    - Class (Target)​
 ![Dataset1Description](https://github.com/user-attachments/assets/1e119828-043f-4f21-af0e-f475a31b4550)
 ### Dataset 2 
 
 *This image represents the ECG of a MI patient
 
 ![MI - IMAGE](https://github.com/user-attachments/assets/f8f64f06-6716-400a-9fcc-bead43c8da47)
+
+# How  to Run the Model
+*   Essential libraries required to run the model such as  pandas, numpy, matplotlib, seabord and sklearn are imported
+*   Models ie, DecisionTree, RandomForest, Logistic Regression, KMeans, KNN, GradientBoosting, NaiveBayes, SVM that are required to train the dataset is also imported
+*   From sklearn library Standard Scalar is import to Normalise the data
+*   the data is loaded using pandas library, and it is procceded with initial inspection and visualisation (using seaborn)
+*   Then the data is preprocesed to check the missing values and the outliers
+    The data is feature scaled using Standard scalers as there are outliers found
