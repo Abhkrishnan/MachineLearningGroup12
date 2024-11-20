@@ -19,8 +19,8 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 *   Week 5 - 11 Project workflow and Execution
 *   Week 12 - Project Submission
 
-## 6. Source
-* a. The source of Dataset 1 and Dataset 2 is from Kaggle
+## 6. a. Source
+* The source of Dataset 1 and Dataset 2 is from [Kaggle](https://www.kaggle.com/)
 
 ## b. Lisence
 ### Dataset 1 - Predicting Heart Disese
@@ -28,7 +28,7 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 * Link of Lisense https://creativecommons.org/licenses/by/4.0/
 
 ### Dataset 2 - ECG Image Classification
-* Link of the dataset https://www.mit.edu/~amini/LICENSE.md
+* Link of the dataset https://www.kaggle.com/datasets/evilspirit05/ecg-analysis
 * Link of Lisense https://www.mit.edu/~amini/LICENSE.md
 
 ## c. Preview of Dataset
@@ -71,7 +71,7 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 ## Dataset 2
 *   All the required libraries ie, pandas, os, tensorflow are imported
 *   data is being imported and classified accordingly using the os library
-*   the data is them fed to a ImageDataGenerator to augment the data and artificatilly create new datas from the already existing ones
+*   the data is then fed to a ImageDataGenerator to augment the data and artificatilly create new datas from the already existing ones
 *   deep learning model is created and complied to feed the data
 *   the data is fitted into the model with an epochs of 25 prediting its accuracy score
 
