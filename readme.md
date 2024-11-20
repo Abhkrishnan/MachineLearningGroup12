@@ -54,24 +54,49 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 ![MI - IMAGE](https://github.com/user-attachments/assets/f8f64f06-6716-400a-9fcc-bead43c8da47)
 
-# 7 How  to Run the Model
+# 7. Data Prepration Pipeline
+## Dataset 1
+*   the data is loaded using pandas library, and it is procceded with initial inspection and visualisation (using seaborn)
+*   Then the data is preprocesed to check the missing values 
+*   The data is check for outliers using box plot
+*   The data is feature scaled using Standard scalers as there are outliers found
+*   The data is then split into training set and testing set
+
+## Dataset 2
+*   All the required libraries ie, pandas, os, tensorflow are imported
+*   data is being imported and classified accordingly using the os library
+*   the data is then fed to a ImageDataGenerator to augment the data and artificatilly create new datas from the already existing ones
+
+## Dataset 2
+
+# 8 a. Short Description of the requirement
+## Dataset 1 
+*   The model aims to predict heart disease of a patients with relevent attributes using different machine learning algorith Such as: DecisionTree, RandomForest, Logistic Regression, KMeans, KNN, GradientBoosting, NaiveBayes, SVM and compare the accuracy between the model for better prediction.
+
+## Dataset 2 
+*   The model aims to classify ECG of different Cardiac condition patients, such as Myocardial Infarction Patients​, Patients with Abnormal Heartbeat​, History of Myocardial Infarction​,Normal Person ECG Images​ USING Neural Network
+
+# b. Model (input)
+## Dataset 1 
+*   The model is trying to predict Heart Disease of a patient using multiple given attributes
+
+## Dataset 2
+*   The model is trying to classify distinct patterns that reflect various heart conditions in a patient 
+
+
 ## Dataset 1
 *   Essential libraries required to run the model such as  pandas, numpy, matplotlib, seabord and sklearn are imported
 *   Models ie, DecisionTree, RandomForest, Logistic Regression, KMeans, KNN, GradientBoosting, NaiveBayes, SVM that are required to train the dataset is also imported
 *   From sklearn library Standard Scalar is import to Normalise the data
-*   the data is loaded using pandas library, and it is procceded with initial inspection and visualisation (using seaborn)
-*   Then the data is preprocesed to check the missing values and the outliers
-*    The data is feature scaled using Standard scalers as there are outliers found
-*   The data is then split into training set and testing set
+
+
 *   Then the data is passed through a decision tree estimation model to find out the suitable deptj and sample split using the GridSearcCV method
 *   The data is then fed into a loop of model when it predicts the accuracy
 *   To improve the accuracy added a Kfold algorith with split 5 and ran the loop with it
 *   KMeans algorithm is ran though the data, by finding the suitable k number using the Elbow method
 
 ## Dataset 2
-*   All the required libraries ie, pandas, os, tensorflow are imported
-*   data is being imported and classified accordingly using the os library
-*   the data is then fed to a ImageDataGenerator to augment the data and artificatilly create new datas from the already existing ones
+
 *   deep learning model is created and complied to feed the data
 *   the data is fitted into the model with an epochs of 25 prediting its accuracy score
 
