@@ -22,7 +22,7 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 ## 6. a. Source
 * The source of Dataset 1 and Dataset 2 is from [Kaggle](https://www.kaggle.com/)
 
-## b. Lisence
+## b. License
 ### Dataset 1 - Predicting Heart Disese
 * Link of the Dataset https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
 * Link of Lisense https://creativecommons.org/licenses/by/4.0/
