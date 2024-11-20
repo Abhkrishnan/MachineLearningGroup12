@@ -1,8 +1,8 @@
 # 1. GROUP_12
 
-## 2. Heart disease Prediction & ECG image classification of Cardiac Patients
+# 2. Heart disease Prediction & ECG image classification of Cardiac Patients
 
-## 3. Group Members
+# 3. Group Members
 Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 # 4. Objective
