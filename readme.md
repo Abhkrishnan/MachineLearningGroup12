@@ -15,7 +15,7 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
     *By applying deep learning techniques, such as convolutional neural networks (CNNs), these visual patterns can be automatically analyzed to classify different types of heart abnormalities, such as arrhythmias, ischemia, or myocardial infarction. 
 
 ## Source
-* The source of Dataset 1 and Dataset is from Kaggle
+* The source of Dataset 1 and Dataset 2 is from Kaggle
 
 ## Lisence
 ### Dataset 1 - Predicting Heart Disese
@@ -25,3 +25,7 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 ### Dataset 2 - ECG Image Classification
     * Link of the dataset https://www.mit.edu/~amini/LICENSE.md
     * Link of Lisense https://www.mit.edu/~amini/LICENSE.md
+
+## Preview of Dataset
+    ### Dataset 2 
+    ![MI(1) - Copy - Copy](https://github.com/user-attachments/assets/f8f64f06-6716-400a-9fcc-bead43c8da47)
