@@ -28,4 +28,4 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 ## Preview of Dataset
     ### Dataset 2 
-    ![MI(1) - Copy - Copy](https://github.com/user-attachments/assets/f8f64f06-6716-400a-9fcc-bead43c8da47)
+    !(https://github.com/user-attachments/assets/f8f64f06-6716-400a-9fcc-bead43c8da47)
