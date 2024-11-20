@@ -69,6 +69,41 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 ## Dataset 2
 
+# 8
+## Dataset 1
+[R2] https://github.com/Abhkrishnan/MachineLearningGroup12/blob/c6e03fa86bc937a157dcb2546afb69643cec761f/PorjectOne/code.ipynb#L41-L937
+*   Essential libraries required to run the model such as  pandas, numpy, matplotlib, seabord and sklearn are imported
+*   The data is loaded using pandas library, and it is proceeded with initial inspection by describing the dataset and visualization of correlation (using seaborn)
+*   Then the data is preprocessed to check the missing values 
+*   The data is check for outliers using box plot
+*   The data is feature scaled using Standard scalers as there are outliers found
+*   The data is then split into training set and testing set
+
+*   From sklearn library Standard Scalar is import to Normalise the data
+
+
+*   Then the data is passed through a decision tree estimation model to find out the suitable depth and sample split using the GridSearcCV method
+*   Models ie, DecisionTree, RandomForest, Logistic Regression, KMeans, KNN, GradientBoosting, NaiveBayes, SVM that are required to train the dataset is also imported
+*   The data is then fed into a loop of model when it predicts the accuracy
+*   To improve the accuracy added a Kfold algorith with split 5 and ran the loop with it
+[R3] https://github.com/Abhkrishnan/MachineLearningGroup12/blob/c6e03fa86bc937a157dcb2546afb69643cec761f/PorjectOne/code.ipynb#L938-L1151
+*   KMeans algorithm is ran though the data, by finding the suitable k number using the Elbow method
+
+[R5]
+Normal Loop https://github.com/Abhkrishnan/MachineLearningGroup12/blob/c6e03fa86bc937a157dcb2546afb69643cec761f/PorjectOne/code.ipynb#L637-L825
+![Normal Loop](https://github.com/user-attachments/assets/ca05926c-2648-4077-bff7-aad5075f3ffc)
+K Fold Loop https://github.com/Abhkrishnan/MachineLearningGroup12/blob/c6e03fa86bc937a157dcb2546afb69643cec761f/PorjectOne/code.ipynb#L892-L929
+![K Fold Loop](https://github.com/user-attachments/assets/89021041-b207-4399-a079-8ec062d75790)
+K Means https://github.com/Abhkrishnan/MachineLearningGroup12/blob/c6e03fa86bc937a157dcb2546afb69643cec761f/PorjectOne/code.ipynb#L1079-L1151
+![K Means](https://github.com/user-attachments/assets/446b7a5e-e73c-4d52-899e-a51579ad5110)
+## Dataset 2
+[R2]
+*   data is being imported and classified accordingly using the os library
+*   the data is then fed to a ImageDataGenerator to augment the data and artificatilly create new datas from the already existing ones
+[R4]
+*   deep learning model is created and complied to feed the data
+*   the data is fitted into the model with an epochs of 25 prediting its accuracy score
+
 # 8 a. Short Description of the requirement
 ## Dataset 1 
 *   The model aims to predict heart disease of a patients with relevant attributes using different machine learning algorith Such as: DecisionTree, RandomForest, Logistic Regression, KMeans, KNN, GradientBoosting, NaiveBayes, SVM and compare the accuracy between the model for better prediction.
@@ -83,22 +118,6 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 ## Dataset 2
 *   The model is trying to classify distinct patterns that reflect various heart conditions in a patient 
 
-
-## Dataset 1
-*   Essential libraries required to run the model such as  pandas, numpy, matplotlib, seabord and sklearn are imported
-*   Models ie, DecisionTree, RandomForest, Logistic Regression, KMeans, KNN, GradientBoosting, NaiveBayes, SVM that are required to train the dataset is also imported
-*   From sklearn library Standard Scalar is import to Normalise the data
-
-
-*   Then the data is passed through a decision tree estimation model to find out the suitable depth and sample split using the GridSearcCV method
-*   The data is then fed into a loop of model when it predicts the accuracy
-*   To improve the accuracy added a Kfold algorith with split 5 and ran the loop with it
-*   KMeans algorithm is ran though the data, by finding the suitable k number using the Elbow method
-
-## Dataset 2
-
-*   deep learning model is created and complied to feed the data
-*   the data is fitted into the model with an epochs of 25 prediting its accuracy score
 # c. Output
 ## Dataset 1 
 * The best model with the best accuracy is Random Forest with a Accuracy of 0.93
@@ -107,9 +126,7 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 * The model ran with a accuracy of _ _ _
 
 
-#   8.
-
-# 9. FilesandFolders
+# 9. Files and Folders
 *   The repository contains 2 folder (ProjectOne and ProjectTwo) and a readme file
 *   ProjectOne is the Heart Disease Prediction and contains the 'PorjectOnecode.ipynb' which contains the code for the analysis, 'heart_statlog_cleveland_hungary_final.csv' contains the data for the analysis
 *   ProjectTwo is the ECG Image classificaiton and contains the 'ProjectTwoCode.ipynb' which contains the code for the analysis and ECG_DATA folder containing the dataset used for the analysis
