@@ -25,11 +25,11 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 ## b. License
 ### Dataset 1 - Predicting Heart Disese
 * Link of the Dataset https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
-* Link of Lisense https://creativecommons.org/licenses/by/4.0/
+* Link of License  https://creativecommons.org/licenses/by/4.0/
 
 ### Dataset 2 - ECG Image Classification
 * Link of the dataset https://www.kaggle.com/datasets/evilspirit05/ecg-analysis
-* Link of Lisense https://www.mit.edu/~amini/LICENSE.md
+* Link of License https://www.mit.edu/~amini/LICENSE.md
 
 ## c. Preview of Dataset
 
@@ -56,8 +56,8 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 # 7. Data Prepration Pipeline
 ## Dataset 1
-*   the data is loaded using pandas library, and it is procceded with initial inspection and visualisation (using seaborn)
-*   Then the data is preprocesed to check the missing values 
+*   the data is loaded using pandas library, and it is proceeded  with initial inspection and visualization  (using seaborn)
+*   Then the data is preprocessed to check the missing values 
 *   The data is check for outliers using box plot
 *   The data is feature scaled using Standard scalers as there are outliers found
 *   The data is then split into training set and testing set
@@ -71,7 +71,7 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 # 8 a. Short Description of the requirement
 ## Dataset 1 
-*   The model aims to predict heart disease of a patients with relevent attributes using different machine learning algorith Such as: DecisionTree, RandomForest, Logistic Regression, KMeans, KNN, GradientBoosting, NaiveBayes, SVM and compare the accuracy between the model for better prediction.
+*   The model aims to predict heart disease of a patients with relevant attributes using different machine learning algorith Such as: DecisionTree, RandomForest, Logistic Regression, KMeans, KNN, GradientBoosting, NaiveBayes, SVM and compare the accuracy between the model for better prediction.
 
 ## Dataset 2 
 *   The model aims to classify ECG of different Cardiac condition patients, such as Myocardial Infarction Patients​, Patients with Abnormal Heartbeat​, History of Myocardial Infarction​,Normal Person ECG Images​ USING Neural Network
@@ -90,7 +90,7 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 *   From sklearn library Standard Scalar is import to Normalise the data
 
 
-*   Then the data is passed through a decision tree estimation model to find out the suitable deptj and sample split using the GridSearcCV method
+*   Then the data is passed through a decision tree estimation model to find out the suitable depth and sample split using the GridSearcCV method
 *   The data is then fed into a loop of model when it predicts the accuracy
 *   To improve the accuracy added a Kfold algorith with split 5 and ran the loop with it
 *   KMeans algorithm is ran though the data, by finding the suitable k number using the Elbow method
