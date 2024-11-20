@@ -30,6 +30,18 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 ### Dataset 1
 * This image shows the overview of the tabular data, which showcases the attributes that we are using for the model
+- Age
+- Sex
+- Chest Pain Type
+- Resting Blood Pressure 
+- Serum Cholesterol 
+- Fasting Blood Sugar
+- Resting Electrocardiogram Results 
+- Maximum Heart Rate Achieved 
+- Exercise Induced Angina
+- Oldpeak (ST Depression)
+- The Slope of Peak Exercise ST Segment
+- Class (Target)​
 ![Dataset1Description](https://github.com/user-attachments/assets/1e119828-043f-4f21-af0e-f475a31b4550)
 ### Dataset 2 
 
