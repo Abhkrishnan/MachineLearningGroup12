@@ -99,6 +99,13 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 *   deep learning model is created and complied to feed the data
 *   the data is fitted into the model with an epochs of 25 prediting its accuracy score
+# c. Output
+## Dataset 1 
+* The best model with the best accuracy is Random Forest with a Accuracy of 0.93
+* After performing K - Fold algorithm on the model there was a significant improvement in the accuracy, further validating the model
+## Dataset 2
+* The model ran with a accuracy of _ _ _
+
 
 #   8.
 
