@@ -127,6 +127,6 @@ K Means https://github.com/Abhkrishnan/MachineLearningGroup12/blob/c6e03fa86bc93
 
 
 # 9. Files and Folders
-*   The repository contains 2 folder (ProjectOne and ProjectTwo) and a readme file
-*   ProjectOne is the Heart Disease Prediction and contains the 'PorjectOnecode.ipynb' which contains the code for the analysis, 'heart_statlog_cleveland_hungary_final.csv' contains the data for the analysis
-*   ProjectTwo is the ECG Image classificaiton and contains the 'ProjectTwoCode.ipynb' which contains the code for the analysis and ECG_DATA folder containing the dataset used for the analysis
+*   The repository contains 2 folder ('Dataset 1 HeartDiseaseClassification' and 'Dataset 2 ECGImageClassification') and a readme file
+*   'Dataset 1 HeartDiseaseClassification' is the Heart Disease Prediction and contains the 'HeartDiseaseClassification.ipynb' which contains the code for the analysis, 'heart_statlog_cleveland_hungary_final.csv' contains the data for the analysis
+*   'Dataset 2 ECGImageClassification' is the ECG Image classificaiton and contains the 'ECGImageClassification.ipynb' which contains the code for the analysis and ECG_DATA folder containing the dataset used for the analysis
