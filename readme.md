@@ -1,11 +1,11 @@
-# GROUP_12
-<br></br>
-## Heart disease Prediction & ECG image classification of Cardiac Patients
+# 1. GROUP_12
 
-## Group Members
+## 2. Heart disease Prediction & ECG image classification of Cardiac Patients
+
+## 3. Group Members
 Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
-# Objective
+# 4. Objective
 * Predicting heart disease using machine learning techniques.
     *It explores various classifiers like Logistic Regression, Decision Trees,Random Forest to analyze heart disease factors, such as cholesterol levels, chest pain types, and blood pressure. 
     *The notebook aims to build predictive models using structured health data.
@@ -14,10 +14,15 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
     *ECG (Electrocardiogram) images contain distinct patterns that reflect various heart conditions. 
     *By applying deep learning techniques, such as convolutional neural networks (CNNs), these visual patterns can be automatically analyzed to classify different types of heart abnormalities, such as arrhythmias, ischemia, or myocardial infarction. 
 
-## Source
-* The source of Dataset 1 and Dataset 2 is from Kaggle
+# 5. Project Milestone
+*   Week 4 -Project Pitch
+*   Week 5 - 11 Project workflow and Execution
+*   Week 12 - Project Submission
 
-## Lisence
+## 6. Source
+* a. The source of Dataset 1 and Dataset 2 is from Kaggle
+
+## b. Lisence
 ### Dataset 1 - Predicting Heart Disese
 * Link of the Dataset https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
 * Link of Lisense https://creativecommons.org/licenses/by/4.0/
@@ -26,7 +31,7 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 * Link of the dataset https://www.mit.edu/~amini/LICENSE.md
 * Link of Lisense https://www.mit.edu/~amini/LICENSE.md
 
-## Preview of Dataset
+## c. Preview of Dataset
 
 ### Dataset 1
 * This image shows the overview of the tabular data, which showcases the attributes that we are using for the model
@@ -49,10 +54,30 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 ![MI - IMAGE](https://github.com/user-attachments/assets/f8f64f06-6716-400a-9fcc-bead43c8da47)
 
-# How  to Run the Model
+# 7 How  to Run the Model
+## Dataset 1
 *   Essential libraries required to run the model such as  pandas, numpy, matplotlib, seabord and sklearn are imported
 *   Models ie, DecisionTree, RandomForest, Logistic Regression, KMeans, KNN, GradientBoosting, NaiveBayes, SVM that are required to train the dataset is also imported
 *   From sklearn library Standard Scalar is import to Normalise the data
 *   the data is loaded using pandas library, and it is procceded with initial inspection and visualisation (using seaborn)
 *   Then the data is preprocesed to check the missing values and the outliers
-    The data is feature scaled using Standard scalers as there are outliers found
+*    The data is feature scaled using Standard scalers as there are outliers found
+*   The data is then split into training set and testing set
+*   Then the data is passed through a decision tree estimation model to find out the suitable deptj and sample split using the GridSearcCV method
+*   The data is then fed into a loop of model when it predicts the accuracy
+*   To improve the accuracy added a Kfold algorith with split 5 and ran the loop with it
+*   KMeans algorithm is ran though the data, by finding the suitable k number using the Elbow method
+
+## Dataset 2
+*   All the required libraries ie, pandas, os, tensorflow are imported
+*   data is being imported and classified accordingly using the os library
+*   the data is them fed to a ImageDataGenerator to augment the data and artificatilly create new datas from the already existing ones
+*   deep learning model is created and complied to feed the data
+*   the data is fitted into the model with an epochs of 25 prediting its accuracy score
+
+#   8.
+
+# 9. FilesandFolders
+*   The repository contains 2 folder (ProjectOne and ProjectTwo) and a readme file
+*   ProjectOne is the Heart Disease Prediction and contains the 'PorjectOnecode.ipynb' which contains the code for the analysis, 'heart_statlog_cleveland_hungary_final.csv' contains the data for the analysis
+*   ProjectTwo is the ECG Image classificaiton and contains the 'ProjectTwoCode.ipynb' which contains the code for the analysis and ECG_DATA folder containing the dataset used for the analysis
