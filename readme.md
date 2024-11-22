@@ -7,11 +7,11 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 # 4. Objective
 * Predicting heart disease using machine learning techniques.
-    *It explores various classifiers like Logistic Regression, Decision Trees,Random Forest to analyze heart disease factors, such as cholesterol levels, chest pain types, and blood pressure. 
+    - The Code explores various classifiers like Logistic Regression, Decision Trees,Random Forest to analyze heart disease factors, such as cholesterol levels, chest pain types, and blood pressure. 
     *The notebook aims to build predictive models using structured health data.
 
 * ECG image classification
-    *ECG (Electrocardiogram) images contain distinct patterns that reflect various heart conditions. 
+    - ECG (Electrocardiogram) images contain distinct patterns that reflect various heart conditions. 
     *By applying deep learning techniques, such as convolutional neural networks (CNNs), these visual patterns can be automatically analyzed to classify different types of heart abnormalities, such as arrhythmias, ischemia, or myocardial infarction. 
 
 # 5. Project Milestone
@@ -24,12 +24,12 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 ## b. License
 ### Dataset 1 - Predicting Heart Disese
-* Link of the Dataset https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
-* Link of License  https://creativecommons.org/licenses/by/4.0/
+* Dataset Link https://www.kaggle.com/datasets/mexwell/heart-disease-dataset
+* License Link  https://creativecommons.org/licenses/by/4.0/
 
 ### Dataset 2 - ECG Image Classification
-* Link of the dataset https://www.kaggle.com/datasets/evilspirit05/ecg-analysis
-* Link of License https://www.mit.edu/~amini/LICENSE.md
+* Dataset Link https://www.kaggle.com/datasets/evilspirit05/ecg-analysis
+* License Link https://www.mit.edu/~amini/LICENSE.md
 
 ## c. Preview of Dataset
 
@@ -56,16 +56,16 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 # 7. Data Prepration Pipeline
 ## Dataset 1
-*   the data is loaded using pandas library, and it is proceeded  with initial inspection and visualization  (using seaborn)
+*   The data is loaded using pandas library, and it is proceeded  with initial inspection and visualization  (using seaborn)
 *   Then the data is preprocessed to check the missing values 
-*   The data is check for outliers using box plot
-*   The data is feature scaled using Standard scalers as there are outliers found
+*   The data is checked for outliers using box plot
+*   The data is feature scaled using Standard scalers to handle the outliers
 *   The data is then split into training set and testing set
 
 ## Dataset 2
 *   All the required libraries ie, pandas, os, tensorflow are imported
 *   data is being imported and classified accordingly using the os library
-*   the data is then fed to a ImageDataGenerator to augment the data and artificatilly create new datas from the already existing ones
+*   the data is then fed to a ImageDataGenerator to augment the data and artificially creating new datas from the  existing samples
 
 ## Dataset 2
 
@@ -83,9 +83,9 @@ Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
 
 
 *   Then the data is passed through a decision tree estimation model to find out the suitable depth and sample split using the GridSearcCV method
-*   Models ie, DecisionTree, RandomForest, Logistic Regression, KMeans, KNN, GradientBoosting, NaiveBayes, SVM that are required to train the dataset is also imported
+*   Various Machine Learning ie, DecisionTree, RandomForest, Logistic Regression, KMeans, KNN, GradientBoosting, NaiveBayes, SVM that are required to train the dataset is also imported
 *   The data is then fed into a loop of model when it predicts the accuracy
-*   To improve the accuracy added a Kfold algorith with split 5 and ran the loop with it
+*   To improve the accuracy added a Kfold Cross Validation with split= 5 and ran the loop with it
 [R3] https://github.com/Abhkrishnan/MachineLearningGroup12/blob/c6e03fa86bc937a157dcb2546afb69643cec761f/PorjectOne/code.ipynb#L938-L1151
 *   KMeans algorithm is ran though the data, by finding the suitable k number using the Elbow method
 
@@ -101,7 +101,7 @@ K Means https://github.com/Abhkrishnan/MachineLearningGroup12/blob/c6e03fa86bc93
 *   data is being imported and classified accordingly using the os library
 *   the data is then fed to a ImageDataGenerator to augment the data and artificatilly create new datas from the already existing ones
 [R4]
-*   deep learning model is created and complied to feed the data
+*   A deep learning model is created and compiled for training
 *   the data is fitted into the model with an epochs of 25 prediting its accuracy score
 
 # 8 a. Short Description of the requirement
