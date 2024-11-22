@@ -3,11 +3,11 @@
 # 2. Heart disease Prediction & ECG image classification of Cardiac Patients
 
 # 3. Group Members
-    1. Abhay Krishnan
-    2. Aghil
-    3. Akul
-    4. Edwin
-    5 .Hilal
+    1. Abhay Krishnan - H00481165 
+    2. Aghil Subramanian Kizhukkulathil - H00468078 
+    3. Akul Vinod Adichikkatt - H00481041 
+    4. Edwin Binu - H00482595 
+    5. Muhammad Hilal Aslam - H00484782 
 
 # 4. Objective
 * Predicting heart disease using machine learning techniques.
@@ -57,22 +57,20 @@ Data Loading and Inspection -> Data Preprocessing -> Data Splitting: -> Model De
 ![MI - IMAGE](https://github.com/user-attachments/assets/f8f64f06-6716-400a-9fcc-bead43c8da47)
 
 # 7. Data Prepration Pipeline
-## Dataset 1
+## Dataset 1 https://github.com/Abhkrishnan/MachineLearningGroup12/blob/main/Dataset%201%20HeartDiseaseClassification/HeartDiseaseClassification.ipynb
 *   The data is loaded using pandas library, and it is proceeded  with initial inspection and visualization  (using seaborn)
 *   Then the data is preprocessed to check the missing values 
 *   The data is checked for outliers using box plot
 *   The data is feature scaled using Standard scalers to handle the outliers
 *   The data is then split into training set and testing set
 
-## Dataset 2
+## Dataset 2 https://github.com/Abhkrishnan/MachineLearningGroup12/blob/main/Dataset%202%20ECGImageClassification/ECG%20image%20classification.ipynb
 *   All the required libraries ie, pandas, os, tensorflow are imported
 *   data is being imported and classified accordingly using the os library
 *   the data is then fed to a ImageDataGenerator to augment the data and artificially creating new datas from the  existing samples
 
-## Dataset 2
-
-# 8
-## Dataset 1
+# 8 
+## Dataset 1 
 [R2] https://github.com/Abhkrishnan/MachineLearningGroup12/blob/c6e03fa86bc937a157dcb2546afb69643cec761f/PorjectOne/code.ipynb#L41-L937
 *   Essential libraries required to run the model such as  pandas, numpy, matplotlib, seabord and sklearn are imported
 *   The data is loaded using pandas library, and it is proceeded with initial inspection by describing the dataset and visualization of correlation (using seaborn)
@@ -114,22 +112,24 @@ K Means https://github.com/Abhkrishnan/MachineLearningGroup12/blob/c6e03fa86bc93
 *   The model aims to classify ECG of different Cardiac condition patients, such as Myocardial Infarction Patients​, Patients with Abnormal Heartbeat​, History of Myocardial Infarction​,Normal Person ECG Images​ USING Neural Network
 
 # b. Model (input)
-## Dataset 1 
+## Dataset 1 https://github.com/Abhkrishnan/MachineLearningGroup12/blob/main/Dataset%201%20HeartDiseaseClassification/HeartDiseaseClassification.ipynb
 *   The model is trying to predict Heart Disease of a patient using multiple given attributes
 
 ## Dataset 2
 *   The model is trying to classify distinct patterns that reflect various heart conditions in a patient 
 
 # c. Output
-## Dataset 1 
+## Dataset 1 https://github.com/Abhkrishnan/MachineLearningGroup12/blob/main/Dataset%201%20HeartDiseaseClassification/HeartDiseaseClassification.ipynb
 * The best model with the best accuracy is Random Forest with a Accuracy of 0.93
 ![Output](https://github.com/user-attachments/assets/36607227-c1ae-45d4-b931-62b56bcc7a91)
 * After performing K - Fold algorithm on the model there was a significant improvement in the accuracy, further validating the model
 ![Output](https://github.com/user-attachments/assets/5836ff1a-7a2a-414a-af2a-b2db7893c232)
 
-## Dataset 2
+## Dataset 2 https://github.com/Abhkrishnan/MachineLearningGroup12/blob/main/Dataset%202%20ECGImageClassification/ECG%20image%20classification.ipynb
 * The MLP Model ran with a accuracy of 0.45
+![MLP Output](https://github.com/user-attachments/assets/61ae3731-7b69-4e96-89fc-89731babafed)
 * The CNN Model ran with a accuracy of 0.50
+![CNN Output](https://github.com/user-attachments/assets/ff43c590-b57d-4768-9152-c402d63297f4)
 
 
 # 9. Files and Folders
