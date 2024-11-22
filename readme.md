@@ -19,8 +19,11 @@
     *By applying deep learning techniques, such as convolutional neural networks (CNNs), these visual patterns can be automatically analyzed to classify different types of heart abnormalities, such as arrhythmias, ischemia, or myocardial infarction. 
 
 # 5. Project Milestone
+### Dataset 1
 Data Loading and Inspection -> Data Preprocessing -> Data Splitting: -> Model Development -> Accuracy Improvement: -> Clustering
 
+### Dataset 2
+Data Loading and Inspection -> Data Preprocessing -> Data Augumentation -> MLP Prediction -> CNN Prediction
 ## 6. a. Source
 * The source of Dataset 1 and Dataset 2 is from [Kaggle](https://www.kaggle.com/)
 
