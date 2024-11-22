@@ -3,21 +3,23 @@
 # 2. Heart disease Prediction & ECG image classification of Cardiac Patients
 
 # 3. Group Members
-Abhay Krishnan ,Aghil, Akul, Edwin, Hilal
+    1. Abhay Krishnan
+    2. Aghil
+    3. Akul
+    4. Edwin
+    5 .Hilal
 
 # 4. Objective
 * Predicting heart disease using machine learning techniques.
     - The Code explores various classifiers like Logistic Regression, Decision Trees,Random Forest to analyze heart disease factors, such as cholesterol levels, chest pain types, and blood pressure. 
-    *The notebook aims to build predictive models using structured health data.
+    - The notebook aims to build predictive models using structured health data.
 
 * ECG image classification
     - ECG (Electrocardiogram) images contain distinct patterns that reflect various heart conditions. 
     *By applying deep learning techniques, such as convolutional neural networks (CNNs), these visual patterns can be automatically analyzed to classify different types of heart abnormalities, such as arrhythmias, ischemia, or myocardial infarction. 
 
 # 5. Project Milestone
-*   Week 4 -Project Pitch
-*   Week 5 - 11 Project workflow and Execution
-*   Week 12 - Project Submission
+Data Loading and Inspection -> Data Preprocessing -> Data Splitting: -> Model Development -> Accuracy Improvement: -> Clustering
 
 ## 6. a. Source
 * The source of Dataset 1 and Dataset 2 is from [Kaggle](https://www.kaggle.com/)
