@@ -123,7 +123,7 @@ K Means https://github.com/Abhkrishnan/MachineLearningGroup12/blob/c6e03fa86bc93
 # c. Output
 ## Dataset 1 
 * The best model with the best accuracy is Random Forest with a Accuracy of 0.93
-![Output](https://github.com/user-attachments/assets/36607227-c1ae-45d4-b931-62b56bcc7a9)
+![Output](https://github.com/user-attachments/assets/36607227-c1ae-45d4-b931-62b56bcc7a91)
 * After performing K - Fold algorithm on the model there was a significant improvement in the accuracy, further validating the model
 ![Output](https://github.com/user-attachments/assets/5836ff1a-7a2a-414a-af2a-b2db7893c232)
 
